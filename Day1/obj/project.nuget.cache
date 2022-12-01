@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QVisgRPApKehx2A5xbPqmd54JDaB7Fetl95xUkBabmgNjBB20OSRP/xY0KeY92cR+k2LFv8JEu+v1hJxLo5FEg==",
+  "dgSpecHash": "lud7mRUSgY01bPhG/z/ltq5nV0tWJuDTTRsJy7YM2QrDiiqEA5LBPQ3KncoJg1lTn5HTeVFXVvo2+y7OElgZ5w==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\AdventOfCode\\Day1\\Day1.csproj",
+  "projectFilePath": "G:\\Dev\\AdventOfCode-2022\\Day1\\Day1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
