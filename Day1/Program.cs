@@ -23,10 +23,6 @@ while ((nextLine = reader.ReadLine()) != null)
 	calorieCount[elfNum] = caloriesForElf;
 }
 
-foreach (var calories in calorieCount)
-{
-	Console.WriteLine($"{calorieCount.IndexOf(calories)}: {calories}");
-}
-
-var max = calorieCount.Max();
-Console.WriteLine($"Elf with most calories: {calorieCount.IndexOf(max)}, Calories: {max}.");
+var orderedCalorieCount = calorieCount.OrderByDescending(c => c).ToList();
+var topThreeTotal = orderedCalorieCount[0] + orderedCalorieCount[1] + orderedCalorieCount[2];
+Console.WriteLine($"Total of top 3 elves: {topThreeTotal}");
