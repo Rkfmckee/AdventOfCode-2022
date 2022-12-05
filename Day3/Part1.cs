@@ -10,8 +10,6 @@
 
             var totalPriority = 0;
 
-            Console.WriteLine($"a: {'a' - 64}, A: {'A' - 64}");
-
             while ((nextLine = reader.ReadLine()) != null)
             {
                 var compartmentSize = nextLine.Length / 2;
