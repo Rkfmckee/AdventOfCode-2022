@@ -52,7 +52,7 @@
 									.Select(x => treeGrid[i, x])
 									.ToArray();
 
-					for (int k = 0; k < j; k++)
+					for (int k = j - 1; k >= 0; k--)
 					{
 						var targetTreeHeight = currentRow[k];
 
@@ -69,7 +69,7 @@
 						}
 					}
 
-					for (int k = currentRow.Length - 1; k > j; k--)
+					for (int k = j + 1; k < currentRow.Length; k++)
 					{
 						var targetTreeHeight = currentRow[k];
 
@@ -90,7 +90,7 @@
 									.Select(x => treeGrid[x, j])
 									.ToArray();
 
-					for (int k = 0; k < i; k++)
+					for (int k = i - 1; k >= 0; k--)
 					{
 						var targetTreeHeight = currentCol[k];
 
@@ -107,7 +107,7 @@
 						}
 					}
 
-					for (int k = currentCol.Length - 1; k > i; k--)
+					for (int k = i + 1; k < currentCol.Length; k++)
 					{
 						var targetTreeHeight = currentCol[k];
 
